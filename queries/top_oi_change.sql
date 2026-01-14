@@ -7,3 +7,10 @@ JOIN exchanges e ON t.exchange_id = e.exchange_id
 GROUP BY i.symbol, e.exchange_code
 ORDER BY oi_change DESC
 LIMIT 10;
+
+-- Sample Output:
+-- symbol      | exchange_code | oi_change
+-- ------------+---------------+-----------
+-- BANKNIFTY  | NSE           | 1245000
+-- NIFTY      | NSE           | 982300
+-- GOLD       | MCX           | 765400
