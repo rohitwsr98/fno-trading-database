@@ -1,4 +1,3 @@
-# fno-trading-database
 # Futures & Options Trading Database (NSE, BSE, MCX)
 
 ## Overview
