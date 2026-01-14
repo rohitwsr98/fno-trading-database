@@ -1,0 +1,8 @@
+CREATE TABLE trades_nse PARTITION OF trades
+FOR VALUES IN (1);
+
+CREATE TABLE trades_bse PARTITION OF trades
+FOR VALUES IN (2);
+
+CREATE TABLE trades_mcx PARTITION OF trades
+FOR VALUES IN (3);
